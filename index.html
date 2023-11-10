@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>ToDo List</title>
+</head>
+<body>
+    <header>
+        <h1>
+            ToDo List
+        </h1>
+    </header>
+    <main>
+        <Section id="New_Task">
+            <!-- Section for the New Task input to add to the list of tasks -->
+            <div>
+                <p>Nueva Tarea</p>
+            </div>
+            <div id="New_Task_Input">
+                <input type="text" name="" id="New_Task_Description">
+                <button id="New_Task_Button">Agregar</button>
+            </div>
+        </Section>
+        <section id="Counters">
+            <!-- Section for the counter of tasks in the list and the ones completed -->
+            <div id="Total_Counters">
+                <h4>Total:</h4>
+                <h4 id="Total_Qty">xx</h4>
+            </div>
+            <div id="Completed_Counters">
+                <h4>Realizadas:</h4>
+                <h4 id="Completed_Qty">yy</h4>
+            </div>
+        </section>
+        <section id="Task_List">
+            <!-- Section for the display of the Task List -->
+            <div id="Task_List_Display">
+                <div class="Task_List_Headers">
+                    <h3>ID</h3>
+                    <h3>Tarea</h3>
+                    <h3>Realizada</h3>
+                    <h3>Borrar</h3>
+                </div>
+                <div id="Task_List_Container">
+                    <!-- part where the task list is inserted -->
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h3>CGR - 2023</h3>
+        <h3>Desafío LATAM</h3>
+    </footer>
+    <!-- vinculacion con fontawesome -->
+     <script
+        src="https://kit.fontawesome.com/f5bdbb41e0.js"
+        crossorigin="anonymous"
+        >
+    </script>
+    <!-- vinculacion al archivo JS -->
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
